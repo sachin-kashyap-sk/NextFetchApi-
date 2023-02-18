@@ -1,0 +1,30 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: #666; */
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.textContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffff;
+  padding: 2%;
+  border: 1px solid #666;
+  border-radius: 10px;
+  width: 40%;
+}
